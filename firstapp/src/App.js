@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   let priceCard = [
     // <!-- Free Tier -->
+    // for bold use key name1.
 
     {
       plan: 'Free',
@@ -135,7 +136,7 @@ function App() {
       ],
     },
   ];
-
+// component
   return (
     <section class="pricing py-5">
       <div class="container">
